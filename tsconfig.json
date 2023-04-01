@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+
+    "target": "ES2020",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false, /* Actual for Vue3; see https://github.com/vuejs/vue-next/issues/4668 */
+    "experimentalDecorators": true,
+    "allowJs": true, /* Actual for Vue3; */
+    "skipLibCheck": true,
+
+    "baseUrl": "./",
+    "paths": {
+      "@Source/*": [ "./Source/*" ]
+    },
+    "declaration": true
+  },
+  "include": [
+    "Project.d.ts",
+    "Source/**/*",
+    "Tests/**/*"
+  ]
+}
